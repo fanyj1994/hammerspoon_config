@@ -78,15 +78,9 @@ if not hsapp_list then
     hsapp_list = {
         {key = 'f', name = 'Finder'},
         {key = 's', name = 'Safari'},
-<<<<<<< HEAD
         {key = 't', name = 'iTerm'},
         {key = 'v', id = 'com.apple.ActivityMonitor'},
         {key = 'y', id = 'com.apple.systempreferences'},
-=======
-        {key = 'v', id = 'com.apple.ActivityMonitor'},
-        {key = 'y', id = 'com.apple.systempreferences'},
-        {key = 't', name = 'iTerm'},
->>>>>>> c70ce3dfb2c0d8d70aa24ab65935c8ae76ac6cf9
     }
 end
 for _, v in ipairs(hsapp_list) do
@@ -377,8 +371,6 @@ end
 ----------------------------------------------------------------------------------------------------
 -- Finally we initialize ModalMgr supervisor
 spoon.ModalMgr.supervisor:enter()
-<<<<<<< HEAD
-=======
 
 --[[
    From https://github.com/victorso/.hammerspoon/blob/master/tools/clipboard.lua
@@ -640,4 +632,3 @@ end
 
 appWatcher = hs.application.watcher.new(applicationWatcher)
 appWatcher:start()
->>>>>>> c70ce3dfb2c0d8d70aa24ab65935c8ae76ac6cf9
