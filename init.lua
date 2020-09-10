@@ -78,9 +78,9 @@ if not hsapp_list then
     hsapp_list = {
         {key = 'f', name = 'Finder'},
         {key = 's', name = 'Safari'},
+        {key = 't', name = 'iTerm'},
         {key = 'v', id = 'com.apple.ActivityMonitor'},
         {key = 'y', id = 'com.apple.systempreferences'},
-        {key = 't', name = 'iTerm'},
     }
 end
 for _, v in ipairs(hsapp_list) do
