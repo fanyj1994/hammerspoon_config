@@ -21,7 +21,8 @@ hspoon_list = {
 hsapp_list = {
     { key = 'a', name = 'Visual Studio Code' },
     {key = 'c', id = 'com.google.Chrome'},
-    -- {key = 'd', name = 'ShadowsocksX'},
+    {key = 's', name = 'ShadowsocksX'},
+    {key = 'd', name = 'draw.io'},
     -- {key = 'e', name = 'Emacs'},
     {key = 'f', name = 'Finder'},
     {key = 'i', name = 'iTerm'},
@@ -34,7 +35,6 @@ hsapp_list = {
     -- {key = 'r', name = 'VimR'},
     -- {key = 's', name = 'Safari'},
     {key = 't', name = 'iTerm'},
-    -- {key = 'v', id = 'com.apple.ActivityMonitor'},
     {key = 'w', name = '企业微信'},
     {key = 'v', name = 'WeChat'},
     {key = 'q', name = 'QQMusic'},
