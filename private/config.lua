@@ -27,6 +27,8 @@ hsapp_list = {
     {key = 'f', name = 'Finder'},
     {key = 'i', name = 'iTerm'},
     {key = 'M', name = 'Typora'},
+    {key = 'N', name = 'WorkFlowy'},
+    
     -- {key = 'k', name = 'KeyCastr'},
     -- {key = 'l', name = 'Sublime Text'},
     -- {key = 'm', name = 'MacVim'},
