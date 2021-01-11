@@ -26,6 +26,7 @@ hsapp_list = {
     {key = 'f', name = 'Finder'},
     {key = 'i', name = 'iTerm'},
     {key = 'M', name = 'Typora'},
+    {key = 'N', name = 'neteaseMusic.app'},
     -- {key = 'k', name = 'KeyCastr'},
     -- {key = 'l', name = 'Sublime Text'},
     -- {key = 'm', name = 'MacVim'},
@@ -38,7 +39,6 @@ hsapp_list = {
     {key = 'w', name = '企业微信'},
     {key = 'v', name = 'WeChat'},
     {key = 'q', name = 'QQMusic'},
-    {key = 'w', name = '企业微信'},
     {key = 'x', name = 'XMind'},
     {key = 'y', id = 'com.apple.systempreferences'},
 }
