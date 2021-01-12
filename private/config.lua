@@ -36,7 +36,7 @@ hsapp_list = {
     -- {key = 'o', name = 'LibreOffice'},
     -- {key = 'p', name = 'mpv'},
     -- {key = 'r', name = 'VimR'},
-    -- {key = 's', name = 'Safari'},
+    {key = 'e', name = '印象笔记'},
     {key = 't', name = 'iTerm'},
     {key = 'w', name = '企业微信'},
     {key = 'v', name = 'WeChat'},
