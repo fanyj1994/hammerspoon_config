@@ -29,6 +29,7 @@ hsapp_list = {
     {key = 'M', name = 'Typora'},
     {key = 'N', name = 'neteaseMusic.app'},
     {key = 'o', name = 'WorkFlowy'},
+    {key = 'r', name = 'Microsoft To Do'},
     
     -- {key = 'k', name = 'KeyCastr'},
     -- {key = 'l', name = 'Sublime Text'},
