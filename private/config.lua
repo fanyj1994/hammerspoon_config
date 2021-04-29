@@ -30,6 +30,7 @@ hsapp_list = {
     {key = 'N', name = 'neteaseMusic.app'},
     {key = 'o', name = 'notion'},
     {key = 'r', name = 'Microsoft To Do'},
+    {key = 't', name = 'WeTERM'},
     
     -- {key = 'k', name = 'KeyCastr'},
     -- {key = 'l', name = 'Sublime Text'},
@@ -38,7 +39,7 @@ hsapp_list = {
     -- {key = 'p', name = 'mpv'},
     -- {key = 'r', name = 'VimR'},
     {key = 'e', name = '印象笔记'},
-    {key = 't', name = 'iTerm'},
+    {key = 'i', name = 'iTerm'},
     {key = 'w', name = '企业微信'},
     {key = 'v', name = 'WeChat'},
     {key = 'q', name = 'QQMusic'},
