@@ -23,6 +23,7 @@ hsapp_list = {
     {key = 'c', id = 'com.google.Chrome'},
     {key = 's', name = 'ShadowsocksX'},
     {key = 'd', name = 'draw.io'},
+    {key = 'g', name = 'uGit'},
     -- {key = 'e', name = 'Emacs'},
     {key = 'f', name = 'Finder'},
     {key = 'i', name = 'iTerm'},
