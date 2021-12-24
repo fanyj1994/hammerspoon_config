@@ -27,6 +27,10 @@ hsapp_list = {{
     name = 'Microsoft Outlook'
 },
 {
+    key = 'b',
+    name = 'Cubox'
+},
+{
     key = 'f',
     name = 'Finder'
 }, {
@@ -35,9 +39,6 @@ hsapp_list = {{
 }, {
     key = 'M',
     name = 'TencentMeeting.app'
-}, {
-    key = 'N',
-    name = 'neteaseMusic.app'
 }, {
     key = 'o',
     name = 'notion'
