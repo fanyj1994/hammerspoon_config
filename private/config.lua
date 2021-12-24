@@ -26,6 +26,7 @@ hsapp_list = {
     -- {key = 'e', name = 'Emacs'},
     {key = 'f', name = 'Finder'},
     {key = 'i', name = 'iTerm'},
+    {key = 'b', name = 'Cubox'},
     {key = 'M', name = 'TencentMeeting.app'},
     {key = 'N', name = 'neteaseMusic.app'},
     {key = 'o', name = 'notion'},
