@@ -27,6 +27,10 @@ hsapp_list = {{
     name = 'Microsoft Outlook'
 },
 {
+    key = 'h',
+    name = 'music.app'
+},
+{
     key = 'b',
     name = 'Cubox'
 },
