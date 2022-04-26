@@ -15,16 +15,18 @@ hsapp_list = {{
 }, {
     key = 's',
     name = 'ShadowsocksX'
-}, {
-    key = 'd',
-    name = 'draw.io'
-}, {
+}, 
+-- {
+--     key = 'd',
+--     name = 'draw.io'
+-- }, 
+{
     key = 'g',
     name = 'uGit'
-}, -- {key = 'e', name = 'Emacs'},
+},
 {
-    key = 'l',
-    name = 'Microsoft Outlook'
+    key = 'd',
+    name = 'omniGraffle'
 },
 {
     key = 'h',
