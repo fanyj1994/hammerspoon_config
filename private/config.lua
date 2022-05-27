@@ -26,7 +26,7 @@ hsapp_list = {{
 },
 {
     key = 'd',
-    name = 'omniGraffle'
+    name = 'Excalidraw'
 },
 {
     key = 'h',
