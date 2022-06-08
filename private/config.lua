@@ -1,52 +1,81 @@
 -- Specify Spoons which will be loaded
-hspoon_list = {
-    "AClock",
-    "BingDaily",
-    -- "Calendar",
-    "CircleClock",
-    "ClipShow",
-    "CountDown",
-    "FnMate",
-    "HCalendar",
-    "HSaria2",
-    "HSearch",
-    -- "KSheet",
-    "SpeedMenu",
-    -- "TimeFlow",
-    -- "UnsplashZ",
-    "WinWin",
-}
+hspoon_list = {"AClock", "BingDaily", -- "Calendar",
+"CircleClock", "ClipShow", "CountDown", "FnMate", "HCalendar", "HSaria2", "HSearch", -- "KSheet",
+"SpeedMenu", -- "TimeFlow",
+-- "UnsplashZ",
+"WinWin"}
 
 -- appM environment keybindings. Bundle `id` is prefered, but application `name` will be ok.
-hsapp_list = {
-    { key = 'a', name = 'Visual Studio Code' },
-    {key = 'c', id = 'com.google.Chrome'},
-    {key = 's', name = 'ShadowsocksX'},
-    {key = 'd', name = 'draw.io'},
-    -- {key = 'e', name = 'Emacs'},
-    {key = 'f', name = 'Finder'},
-    {key = 'i', name = 'iTerm'},
-    {key = 'b', name = 'Cubox'},
-    {key = 'M', name = 'TencentMeeting.app'},
-    {key = 'N', name = 'neteaseMusic.app'},
-    {key = 'o', name = 'notion'},
-    {key = 'r', name = 'Microsoft To Do'},
-    {key = 't', name = 'WeTERM'},
-    
-    -- {key = 'k', name = 'KeyCastr'},
-    -- {key = 'l', name = 'Sublime Text'},
-    -- {key = 'm', name = 'MacVim'},
-    -- {key = 'o', name = 'LibreOffice'},
-    -- {key = 'p', name = 'mpv'},
-    -- {key = 'r', name = 'VimR'},
-    {key = 'e', name = '印象笔记'},
-    {key = 'i', name = 'iTerm'},
-    {key = 'w', name = '企业微信'},
-    {key = 'v', name = 'WeChat'},
-    {key = 'q', name = 'QQMusic'},
-    {key = 'x', name = 'XMind'},
-    {key = 'y', id = 'com.apple.systempreferences'},
-}
+hsapp_list = {{
+    key = 'a',
+    name = 'Visual Studio Code'
+}, {
+    key = 'c',
+    id = 'com.google.Chrome'
+}, {
+    key = 's',
+    name = 'ShadowsocksX'
+}, {
+    key = 'd',
+    name = 'draw.io'
+}, {
+    key = 'g',
+    name = 'uGit'
+}, -- {key = 'e', name = 'Emacs'},
+{
+    key = 'r',
+    name = 'Microsoft Word'
+},
+{
+    key = 'l',
+    name = 'Microsoft Excel'
+},
+{
+    key = 'h',
+    name = 'music.app'
+},
+{
+    key = 'b',
+    name = 'Cubox'
+},
+{
+    key = 'f',
+    name = 'Finder'
+}, {
+    key = 'i',
+    name = 'iTerm'
+}, {
+    key = 'M',
+    name = 'TencentMeeting.app'
+}, {
+    key = 'o',
+    name = 'notion'
+},  {
+    key = 't',
+    name = 'WeTERM'
+},
+{
+    key = 'e',
+    name = '印象笔记'
+}, {
+    key = 'i',
+    name = 'iTerm'
+}, {
+    key = 'w',
+    name = '企业微信'
+}, {
+    key = 'v',
+    name = 'WeChat'
+}, {
+    key = 'q',
+    name = 'QQMusic'
+}, {
+    key = 'x',
+    name = 'XMind'
+}, {
+    key = 'y',
+    id = 'com.apple.systempreferences'
+}}
 
 -- Modal supervisor keybinding, which can be used to temporarily disable ALL modal environments.
 hsupervisor_keys = {{"cmd", "shift", "ctrl"}, "Q"}
@@ -61,12 +90,12 @@ hshelp_keys = {{"alt", "shift"}, "/"}
 hsaria2_host = "http://localhost:6800/jsonrpc"
 -- aria2 RPC host secret
 hsaria2_secret = "token"
-windowHotkey = {'control','command'}
+windowHotkey = {'control', 'command'}
 hs.hotkey.bind(windowHotkey, 'return', function()
     hs.grid.maximizeWindow()
 end)
 
-hs.hotkey.bind(windowHotkey, 'F', function() 
+hs.hotkey.bind(windowHotkey, 'F', function()
     hs.window.focusedWindow():toggleFullScreen()
 end)
 
@@ -136,16 +165,16 @@ hsconsole_keys = {"alt", "Z"}
 
 function changeVolume(diff)
     return function()
-      local current = hs.audiodevice.defaultOutputDevice():volume()
-      local new = math.min(100, math.max(0, math.floor(current + diff)))
-      if new > 0 then
-        hs.audiodevice.defaultOutputDevice():setMuted(false)
-      end
-      hs.alert.closeAll(0.0)
-      hs.alert.show("Volume " .. new .. "%", {}, 0.5)
-      hs.audiodevice.defaultOutputDevice():setVolume(new)
+        local current = hs.audiodevice.defaultOutputDevice():volume()
+        local new = math.min(100, math.max(0, math.floor(current + diff)))
+        if new > 0 then
+            hs.audiodevice.defaultOutputDevice():setMuted(false)
+        end
+        hs.alert.closeAll(0.0)
+        hs.alert.show("Volume " .. new .. "%", {}, 0.5)
+        hs.audiodevice.defaultOutputDevice():setVolume(new)
     end
-  end
+end
 
 hs.hotkey.bind(windowHotkey, 'Down', changeVolume(-3))
 hs.hotkey.bind(windowHotkey, 'Up', changeVolume(3))
