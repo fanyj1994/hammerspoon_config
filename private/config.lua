@@ -12,14 +12,7 @@ hsapp_list = {{
 }, {
     key = 'c',
     id = 'com.google.Chrome'
-}, {
-    key = 's',
-    name = 'ShadowsocksX'
-}, 
--- {
---     key = 'd',
---     name = 'draw.io'
--- }, 
+},
 {
     key = 'g',
     name = 'uGit'
@@ -41,7 +34,7 @@ hsapp_list = {{
     name = 'Finder'
 }, {
     key = 'i',
-    name = 'iTerm'
+    name = 'Warp'
 }, {
     key = 'M',
     name = 'TencentMeeting.app'
@@ -54,13 +47,6 @@ hsapp_list = {{
 }, {
     key = 't',
     name = 'WeTERM'
-},
-{
-    key = 'e',
-    name = '印象笔记'
-}, {
-    key = 'i',
-    name = 'iTerm'
 }, {
     key = 'w',
     name = '企业微信'
@@ -71,11 +57,14 @@ hsapp_list = {{
     key = 'q',
     name = 'QQMusic'
 }, {
-    key = 'x',
-    name = 'XMind'
-}, {
     key = 'y',
     id = 'com.apple.systempreferences'
+}, {
+    key = 'k',
+    id = 'postman'
+}, {
+    key = 's',
+    name = 'FireFox'
 }}
 
 -- Modal supervisor keybinding, which can be used to temporarily disable ALL modal environments.
