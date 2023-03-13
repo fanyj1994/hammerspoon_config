@@ -18,6 +18,14 @@ hsapp_list = {{
     name = 'uGit'
 },
 {
+    key = 'r',
+    name = 'Microsoft Word'
+},
+{
+    key = 'l',
+    name = 'Microsoft Excel'
+},
+{
     key = 'd',
     name = 'Excalidraw'
 },
@@ -41,10 +49,7 @@ hsapp_list = {{
 }, {
     key = 'o',
     name = 'notion'
-}, {
-    key = 'r',
-    name = 'Microsoft To Do'
-}, {
+},  {
     key = 't',
     name = 'WeTERM'
 }, {
