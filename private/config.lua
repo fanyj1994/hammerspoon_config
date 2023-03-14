@@ -70,6 +70,9 @@ hsapp_list = {{
 }, {
     key = 's',
     name = 'FireFox'
+},  {
+    key = 'e',
+    name = 'Microsoft Edge'
 }}
 
 -- Modal supervisor keybinding, which can be used to temporarily disable ALL modal environments.
