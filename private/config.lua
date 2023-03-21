@@ -20,6 +20,13 @@ hsapp_list = {{
 {
     key = 'r',
     name = 'Microsoft Word'
+},{
+    key = 'e',
+    name = 'coding helper'
+},
+{
+    key = 'q',
+    name = 'Cursor'
 },
 {
     key = 'l',
@@ -58,10 +65,7 @@ hsapp_list = {{
 }, {
     key = 'v',
     name = 'WeChat'
-}, {
-    key = 'q',
-    name = 'QQMusic'
-}, {
+},  {
     key = 'y',
     id = 'com.apple.systempreferences'
 }, {
